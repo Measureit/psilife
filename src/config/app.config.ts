@@ -2,9 +2,6 @@
 // Centralna konfiguracja dla całej aplikacji Łapka w Łapkę
 
 export const APP_CONFIG = {
-  // Base URL dla aplikacji - zmień tutaj żeby zaktualizować wszędzie
-  BASE_URL: '/',
-  
   // Inne konfiguracje aplikacji
   APP_NAME: 'Psilife',
   VERSION: '1.0.0',
@@ -22,6 +19,3 @@ export const APP_CONFIG = {
     BLOG_CONTENT: '/content/blog'
   }
 } as const;
-
-// Eksportuj też samo BASE_URL dla wygody
-export const BASE_URL = APP_CONFIG.BASE_URL;

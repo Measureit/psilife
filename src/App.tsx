@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './App.css';
-import { BASE_URL } from './config/app.config';
 
 import Navbar from './components/Navbar.tsx';
 import HomePage from './pages/HomePage.tsx';
@@ -14,7 +13,7 @@ import ScrollToTop from './components/ScrollToTop.tsx';
 
 function App() {
   return (
-    <Router basename={BASE_URL}>
+    <Router>
       <ScrollToTop />
       <div className="App">
         <Navbar />
