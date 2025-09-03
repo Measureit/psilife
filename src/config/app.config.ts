@@ -3,10 +3,10 @@
 
 export const APP_CONFIG = {
   // Base URL dla aplikacji - zmień tutaj żeby zaktualizować wszędzie
-  BASE_URL: '/LapkaWLapke',
+  BASE_URL: '/',
   
   // Inne konfiguracje aplikacji
-  APP_NAME: 'Łapka w Łapkę',
+  APP_NAME: 'Psilife',
   VERSION: '1.0.0',
   
   // Konfiguracja bloga
